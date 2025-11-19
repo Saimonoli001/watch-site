@@ -1,0 +1,73 @@
+/*  General  Reset */
+body h1,h2,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Times New Roman', Times, serif;
+line-height: 1.6;
+color: #290a2b;
+background-color: #e6e6e6;
+margin: 0;
+padding: 0;
+}
+
+/* Header section */
+header.top{
+    background-color: #d2cfcf;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 10px;
+}
+header.top h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.image-container img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgab(0, 0, 0, 0.1);
+}
+
+/* Main Content Section */
+main.blogmain{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-impact-of-technology h2{
+    font-size: 1.5rem;
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.positive-impact h2{
+    font-size: 1.5rem;
+    color: #2d2d2d;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.negative-impact h2{
+    font-size: 1.5rem;
+    color: #2d2d2d;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

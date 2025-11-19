@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="is.css">
+    
+</head>
+<body >
+    <div class="topnav">
+        <div class="logo">
+          <img src="courseworklogo-removebg-preview.png" height="80px">
+             </div>
+             <!--Navigation bar-->
+        
+          <div class="navbar" id="navbar">
+           <div><a href="#home">Home</a></div>
+           <div><a href="#about.html">About</a></div>
+           <div><a href="#research.html">Research</a></div>
+           <div><a href="#blog.html">Blog</a></div>
+           <div><a href="#product.html">Product</a></div>
+           
+            <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search.."/>
+           <i class="search-icon">&#128269;</i>
+          </div>
+         </div>
+          </div>
+          </div>
+            <div class="aboutcontainer" >
+  
+      <h1>About Us</h1>
+      
+      <p> Team Coder, a prolonged accumulator,furnishes accurate watches with high-quality materials,precision movements and intricate craftmanship.
+        Experience precision and interpretation with our team, your trusted partner for perfect watches.  </p>
+      </div>
+            <h2>Our team</h2>
+          <div class="teammembers">  
+              <div class="members">
+              
+                <div class="memcard">
+                  <h4>Leader and home page designer</h4>
+                <img src="images/saimon.jpg" alt="m1">
+                <h3>Saimon Oli</h3>
+                <button class="expandbutton" id="expandbutton" onclick="toggleEffect(this)">More info</button>
+                </div>
+                <div class="memberdisc">
+         <p>I am currently studying at Itahari international college,pursuing a BSc (Hons) in Computing In addition to my academic pursuits,
+                   I have a good interest and straight passion for coding.I am also a proactive learner, always seeking new challenges and
+                    opportunities to grow in the technology industry.</p>
+                </div>
+            </div>
+
+            <div class="members">
+                <div class="memcard">
+                  <h4>Research page designer</h4>
+                <img src="images/rijan.jpg" alt="m2">
+                <h3>Rijan Dahal</h3>
+                <button class="expandbutton" id="expandbutton" onclick="toggleEffect(this)">More info</button>
+                </div>
+                <div class="memberdisc">
+                <p>Rijan Dahal,<br> ●an BSc(hons) Computing student.I have a strong interest in software development, web designer and artificial
+                   intelligence.Being Computing student, I'm committed to mastering skills for success in the dynamic computing industry.</p>
+           </div>
+         </div>  
+
+             <div class="members">
+                <div class="memcard">
+                  <h4>About us page designer</h4>
+                 <img src="images/deepisha.jpg" alt="m3">
+                 <h3>Dipisha Timsina</h3>
+                 <button class="expandbutton" id="expandbutton" onclick="toggleEffect(this)">More info</button>
+                </div> 
+                <div class="memberdisc">
+                 <p>Dipisha Timsina,from Itahari Sunsari, is pursuing BSc Hons Computing at Itahari International College. My academic journey is 
+                  fueled by curiosity and a commitment to build a strong foundation in information technology,preparing myself for future challenges
+                   in this ever-evolving field.</p>               
+             </div>
+             </div>        
+        
+            <div class="members">
+                <div class="memcard">
+                  <h4>Blog page designer</h4>    
+               <img src="images/pematamang.jpg" alt="m4"> 
+                <h3>Pema Tamang</h3>
+                <button class="expandbutton" id="expandbutton" onclick="toggleEffect(this)">More info</button>
+                </div>
+                <div class="memberdisc">
+                <p>Hello! its me Pema,a Bsc student of Itahari International College with a straight passion in Web-designer and as well as Coding.
+                  My passion for coding and my love for computers has made me choose this degree and I'm ready to learn and expand my knowledge
+                   about the Digital marketing.</p>
+           </div>
+         </div>
+
+            <div class="members">
+                <div class="memcard">
+                  <h4>Product page designer</h4>
+            <img src="images/diksha.jpg" alt="m5">
+            <h3>Diksha Rai</h3>
+            <button class="expandbutton" id="expandbutton" onclick="toggleEffect(this)">More info</button>
+            </div> 
+            <div class="memberdisc">
+                <p>Diksha Rai,studying BsC Hons Computimg at itahari international college.my passison for coding and my love for computers has made
+                   me choose this degree and i am ready to learn and expand my knowledge.</p>
+            </div>
+            </div>
+         </div>
+  </div>
+  <div class="feedbackform-container">
+    <h1>We Value Your Feedback!</h1>
+    <form id="feedback-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="order-number">Order Number (if applicable):</label>
+      <input type="text" id="order-number" name="order-number" placeholder="Enter your order number">
+
+      <label for="rating">Rate your experience:</label>
+      <select id="rating" name="rating">
+        <option value="1">1 - Poor</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 - Excellent</option>
+      </select>
+
+      <label for="feedback-type">Type of Feedback:</label>
+      <select id="feedback-type" name="feedback-type">
+        <option value="general">General Inquiry</option>
+        <option value="product">Product Feedback</option>
+        <option value="shipping">Shipping & Delivery</option>
+        <option value="customer-service">Customer Service</option>
+        <option value="website">Website Experience</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Please share your feedback" required></textarea>
+
+      <label for="response"><h3>Would you like us to respond to you?</h3>
+       <div class="yesno">
+      <input type="radio" id="yes" name="response" value="yes" required> Yes
+      <input type="radio" id="no" name="response" value="no" required> No
+    </div>
+    </label>
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <div id="confirmation-message" class="confirmation-message"></div>
+  </div>
+                        
+<footer>
+    <div class="footer">
+        <div class="footericons">
+         <div><i class="fa-brands fa-facebook"></i></div>   
+         <div><i class="fa-brands fa-twitter"></i></div>
+         <div><i class="fa-brands fa-instagram"></i></div>
+         <div><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+        <div class="footerlinks">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">Blog</a></div>
+            <div><a href="#">About</a></div>
+            <div><a href="#">Research</a></div>
+            <div><a href="#">Product</a></div>
+            <div><a href="#">Contact us</a></div>
+         </div>
+        <div class="copy">
+            <h3>@copyright 2025.All rights reserved.</h3>
+</div>
+</div>
+</footer>
+ </div>   
+  <script>
+    // expansion on discription 
+    document.querySelectorAll(".expandbutton").forEach(button => {
+      
+    button.addEventListener("click",function(){
+      const memberCard = button.closest('.members'); 
+      const memberDisc = memberCard.querySelector(".memberdisc");
+     
+      if(memberDisc.style.display==="flex"){
+        memberDisc.style.display="none";
+      }else{
+        memberDisc.style.display="flex";
+      }
+      button.classList.toggle("active");
+    });
+
+    });
+
+    document.getElementById("feedback-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  // Get form values
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const orderNumber = document.getElementById("order-number").value;
+  const rating = document.getElementById("rating").value;
+  const feedbackType = document.getElementById("feedback-type").value;
+  const message = document.getElementById("message").value;
+  const response = document.querySelector('input[name="response"]:checked').value;
+
+  // Display confirmation message
+  const confirmationMessage = `
+    <p>Thank you, ${name}, for your feedback!</p>
+    <p>We have received your message and will respond to your request if needed.</p>
+    <p><strong>Your rating:</strong> ${rating} / 5</p>
+    <p><strong>Feedback Type:</strong> ${feedbackType}</p>
+    <p><strong>Your message:</strong> ${message}</p>
+  `;
+
+  document.getElementById("confirmation-message").innerHTML = confirmationMessage;
+
+  // Clear form fields after submission
+  document.getElementById("feedback-form").reset();
+});
+  
+  </script>     
+         
+</body>
+</html>
+
+
+
+
