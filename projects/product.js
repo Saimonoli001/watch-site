@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
           const modal = document.getElementById("modal");
           modal.style.display = "block";
       });
-  
   });
 
   // Close modal
