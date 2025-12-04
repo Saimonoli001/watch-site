@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const modal = document.getElementById("modal");
       modal.style.display = "none";
   });
-
   // Modal buttons
   const goToCartButton = document.getElementById("go-to-cart");
   const continueShoppingButton = document.getElementById("continue-shopping");
