@@ -148,7 +148,7 @@ body {
             transition: 0.4s;
         }
         .footerNav{
-        margin: 0;
+        margin: 10;
         background-color: #f7f0f0;
         }
         .footerNav ul{
@@ -169,7 +169,7 @@ body {
         }
         .footerNav ul li a:hover{
             opacity: 1;
-            color:red;
+            color:orange;
         }
         .footerBottom{ 
         text-align: center;
